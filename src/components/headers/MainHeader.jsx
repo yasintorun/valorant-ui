@@ -9,7 +9,7 @@ const _Header = styled.header`
 
 const Container = styled.div`
     height: 100%;
-    padding: 0px 20px;
+    padding: 0px 7px;
 `
 const ValorantHeaderLogo = styled.img`
 width: 20px;
