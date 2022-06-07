@@ -3,6 +3,7 @@ import HomeMovies from './assets/movies/HomeScreen2.mp4';
 import ChatSidebar from './components/ChatSidebar';
 import MainHeader from './components/headers/MainHeader';
 import styled from 'styled-components'
+import CharacterListPage from './pages/CharacterListPage';
 
 const Content = styled.div`
   display: flex;
@@ -21,6 +22,7 @@ function App() {
       <MainHeader />
       <Content>
         <ChatSidebar />
+        <CharacterListPage />
       </Content>
     </div>
   );
